@@ -1,0 +1,105 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background-color: #fdfaf6;
+  color: #000;
+}
+
+/* Navbar */
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 90px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.start-btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero-img img {
+  width: 460px;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  padding: 20px 40px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
